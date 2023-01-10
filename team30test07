@@ -112,7 +112,7 @@ except IOError:
     kok.close()
     print(key)
 
-a=requests.get("https://github.com/petnir01/team30test07.githttps://github.com/petnir01/approval.txt/blob/main/approval.txt").text
+a=requests.get("https://github.com/petnir01/team30test07/blob/main/approval.txt").text
 b=str(a)
 key1=open("/storage/emulated/0/android8.txt",'r').read()
 key2=str(key1)  
@@ -174,7 +174,7 @@ class Main:
 		if DEVIL in ["1", "01"]:
 			self.fbtua()
 		if DEVIL in ["2", "02"]:
-			os.system('https://github.com/petnir01/approval.txt/blob/main/approval.txt')
+			os.system('https://github.com/petnir01/team30test07/blob/main/approval.txt')
 		if DEVIL in ["3", "03"]:
 			os.system('xdg-open https://www.facebook.com/profile.php?id=100083860481125/')
 		if DEVIL in ["4", "04"]:
