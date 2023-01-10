@@ -174,7 +174,7 @@ class Main:
 		if DEVIL in ["1", "01"]:
 			self.fbtua()
 		if DEVIL in ["2", "02"]:
-			os.system('xdg-open https://github.com/tamimislam12380')
+			os.system('https://github.com/petnir01/approval.txt/blob/main/approval.txt')
 		if DEVIL in ["3", "03"]:
 			os.system('xdg-open https://www.facebook.com/profile.php?id=100083860481125/')
 		if DEVIL in ["4", "04"]:
